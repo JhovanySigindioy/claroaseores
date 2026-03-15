@@ -20,15 +20,90 @@ export const homePlans: Plan[] = [
     highlight: "Súper Precio",
     features: [
       "900 Megas (según cobertura)",
-      "Incluye Amazon Prime (12 meses)",
-      "Claro Drive 25GB incluido",
-      "McAfee Premium (1 equipo)",
-      "Telefonía Fija Ilimitada"
+      "Amazon Prime (12 meses)",
+      "Claro Drive 25GB",
+      "McAfee Premium",
+      "Fija Ilimitada"
     ],
     apps: ["Amazon Prime"]
   },
   {
-    id: "hogar-intermedio-2ott",
+    id: "internet-89k",
+    name: "Internet + 1 OTT",
+    price: "89.900",
+    subtitle: "Internet 900 Megas",
+    highlight: "Ideal Streaming",
+    features: [
+      "Fibra 900 Megas",
+      "1 OTT a elección",
+      "Claro Drive 25GB",
+      "McAfee Premium",
+      "Fija Ilimitada"
+    ],
+    apps: ["Netflix", "Max", "Disney+", "Prime Video"]
+  },
+  {
+    id: "internet-99k",
+    name: "Internet + 2 OTT",
+    price: "99.900",
+    subtitle: "Internet 900 Megas",
+    highlight: "Dúo Digital",
+    features: [
+      "Fibra 900 Megas",
+      "2 OTT a elección",
+      "Claro Drive 25GB",
+      "McAfee Premium",
+      "Fija Ilimitada"
+    ],
+    apps: ["Netflix", "Max", "Disney+", "Prime Video"]
+  },
+  {
+    id: "hogar-duo-tv-104k",
+    name: "Dúo TV + Internet",
+    price: "104.900",
+    subtitle: "TV Intermedio + Web",
+    highlight: "Plan Familiar",
+    features: [
+      "Fibra 900 Megas",
+      "TV Intermedio Plus",
+      "1 OTT a elección",
+      "1 Deco HD Incluido",
+      "Fija Ilimitada"
+    ],
+    apps: ["Netflix", "Disney+", "Prime Video"]
+  },
+  {
+    id: "internet-super-bundle",
+    name: "Súper Bundle Internet",
+    price: "109.900",
+    subtitle: "Internet + 3 Apps",
+    highlight: "Para Streamers",
+    features: [
+      "900 Megas Fibra",
+      "HBO Max (Sin anuncios)",
+      "Prime Video",
+      "Win Play Incluido",
+      "Fija Ilimitada"
+    ],
+    apps: ["HBO Max", "Prime Video", "Win Play"]
+  },
+  {
+    id: "hogar-triple-promo-109k",
+    name: "Tripleplay Promo",
+    price: "109.900",
+    subtitle: "TV + Internet + Fija",
+    highlight: "Todo en Uno",
+    features: [
+      "Fibra 900 Megas",
+      "TV Intermedio Plus",
+      "1 OTT a elección",
+      "2 Decos Incluidos",
+      "1 Asistencia"
+    ],
+    apps: ["Netflix", "Prime Video", "Disney+"]
+  },
+  {
+    id: "hogar-intermedio-119k",
     name: "Tripleplay Intermedio Plus",
     price: "119.900",
     subtitle: "TV + Internet + Fija",
@@ -36,46 +111,27 @@ export const homePlans: Plan[] = [
     highlight: "Más Vendido",
     features: [
       "Fibra 900 Megas",
-      "Dos (2) OTT a elección",
-      "TV Digital Intermedio Plus",
-      "Dos (2) Decos (HD + Digital)",
-      "Una (1) Asistencia a elección",
-      "McAfee Premium (3 equipos)"
+      "2 OTT a elección",
+      "TV Intermedio Plus",
+      "2 Decos Incluidos",
+      "1 Asistencia"
     ],
     apps: ["Netflix", "Win Play", "Max", "Disney+", "Prime Video"]
   },
   {
-    id: "hogar-superior",
+    id: "hogar-superior-129k",
     name: "Tripleplay Superior",
     price: "129.900",
-    subtitle: "Máxima Entretenimiento",
-    highlight: "Oferta Premium",
+    subtitle: "Premium TV",
+    highlight: "Máximo Nivel",
     features: [
       "Fibra 900 Megas",
-      "Dos (2) OTT a elección",
+      "2 OTT a elección",
       "TV Digital Superior",
-      "Dos (2) Decos (HD + Digital)",
-      "Una (1) Asistencia Médica/Mascotas",
-      "McAfee Premium (3 equipos)",
-      "Todo Incluido"
+      "2 Decos Incluidos",
+      "Asistencia Médica"
     ],
     apps: ["Netflix", "Win Play", "Max", "Disney+", "Prime Video"]
-  },
-  {
-    id: "internet-super-bundle",
-    name: "Internet Súper Bundle",
-    price: "109.900",
-    subtitle: "Internet + 3 Apps",
-    highlight: "Para Streamers",
-    features: [
-      "900 Megas Fibra Óptica",
-      "HBO Max (Sin anuncios)",
-      "Amazon Prime Video",
-      "Win Play Incluido",
-      "Claro Drive + McAfee",
-      "Telefonía Fija Ilimitada"
-    ],
-    apps: ["HBO Max", "Amazon Prime", "Win Play"]
   }
 ];
 
