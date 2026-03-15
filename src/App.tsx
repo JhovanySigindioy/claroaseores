@@ -6,7 +6,7 @@ import WhatsAppCTA from './components/WhatsAppCTA';
 import Footer from './components/Footer';
 
 const App = () => {
-  const currentUrl = "http://192.168.0.18:5173/";
+  const currentUrl = "https://josecatama.asesoriapro.com/";
 
   return (
     <div className="font-sans text-slate-900 overflow-x-hidden">
