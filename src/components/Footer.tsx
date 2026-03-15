@@ -22,13 +22,13 @@ const Footer = ({ currentUrl }: { currentUrl: string }) => (
             <span>WhatsApp: +57 302 490 2653</span>
           </div>
         </div>
-        
-        <div className="flex flex-col items-center justify-center">
+
+        {/* <div className="flex flex-col items-center justify-center">
           <h5 className="font-bold text-slate-900 mb-6 text-center">Escanea y comparte</h5>
           <div className="bg-white p-3 rounded-2xl shadow-xl border border-slate-100 flex items-center justify-center">
             <QRCode value={currentUrl} size={140} />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center text-xs text-slate-400 gap-4 text-center md:text-left">
         <p>© 2024 Claro Sales - Asesor Comercial Autorizado. Todos los derechos reservados.</p>
